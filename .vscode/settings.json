@@ -1,0 +1,11 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/kellycusick/esp/esp-idf",
+  "idf.toolsPath": "/Users/kellycusick/.espressif",
+  "idf.pythonInstallPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+  "idf.port": "/dev/tty.usbserial-1101",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "lvgl.h": "c"
+  }
+}

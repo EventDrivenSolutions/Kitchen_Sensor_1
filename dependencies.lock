@@ -1,0 +1,49 @@
+dependencies:
+  espressif/esp_lcd_sh1107:
+    dependencies: []
+    source:
+      path: /Users/kellycusick/Documents/ESP32_Projects/i2c_oled/managed_components/espressif__esp_lcd_sh1107
+      type: local
+    version: 1.1.0
+  espressif/ethernet_init:
+    dependencies: []
+    source:
+      path: /Users/kellycusick/Documents/ESP32_Projects/i2c_oled/managed_components/espressif__ethernet_init
+      type: local
+    version: 1.2.0
+  espressif/mqtt:
+    dependencies: []
+    source:
+      path: /Users/kellycusick/Documents/ESP32_Projects/i2c_oled/managed_components/espressif__mqtt
+      type: local
+    version: 1.0.0
+  idf:
+    source:
+      type: idf
+    version: 6.1.0
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: /Users/kellycusick/Documents/ESP32_Projects/i2c_oled/managed_components/lvgl__lvgl
+      type: local
+    version: 9.2.0
+  protocol_examples_common:
+    dependencies:
+    - name: espressif/ethernet_init
+      rules:
+      - if: target != linux
+      version: ~1.2.0
+    source:
+      path: /Users/kellycusick/esp/esp-idf/examples/common_components/protocol_examples_common
+      type: local
+    version: '*'
+direct_dependencies:
+- espressif/esp_lcd_sh1107
+- espressif/ethernet_init
+- espressif/mqtt
+- idf
+- lvgl/lvgl
+- protocol_examples_common
+manifest_hash: 67a83f31cdc5ff894ed62c1e915b9afab26b99c0e57cda29dd7aba1dadaa9b9d
+target: esp32
+version: 2.0.0

@@ -1,0 +1,2 @@
+source /Users/kellycusick/Documents/ESP32_Projects/i2c_oled/build/gdbinit/symbols
+source /Users/kellycusick/Documents/ESP32_Projects/i2c_oled/build/gdbinit/connect
