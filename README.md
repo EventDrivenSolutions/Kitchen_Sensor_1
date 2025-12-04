@@ -46,6 +46,7 @@ Features
 Project Structure
 -----------------
 main/
+
   ├── i2c_oled_example_main.c   (main application + LVGL)
   
   ├── mqtt.c / mqtt.h           (MQTT handling)
