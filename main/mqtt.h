@@ -5,7 +5,7 @@
 #include "lvgl.h"
 
 // ---- MQTT settings --------
-#define MQTT_BROKER_URI "mqtt://192.168.1.240:1883"
+#define MQTT_BROKER_URI "mqtt://0.0.0.0:1883"
 #define MQTT_TOPIC_PUB   "/kitchen/sensor"
 #define MQTT_TOPIC_SUB  "/kitchen/control"
 #define MQTT_QOS_LEVEL 0 // 0 is forget, less overhead --> 1 is at least once, was getting jumpy and not really needed here
